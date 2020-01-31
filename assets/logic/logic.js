@@ -29,13 +29,6 @@ let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + q
     }
 
 
-//set parameter for search term
-
-//set parameter for number of records to retrieve
-
-//set parameter for start year (optional)
-
-//set parameter for end year (optional)
 
 
 
