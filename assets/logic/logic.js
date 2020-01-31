@@ -18,7 +18,7 @@ let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + q
     $.ajax({
         url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=frybrVidz4oQ4nanro4Ft8CKfvGkIni3",
         method: "GET"
-    }).then(function(repsonse) {
+    }).then(function(response) {
         console.log(response);
     });
 
