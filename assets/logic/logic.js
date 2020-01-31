@@ -13,14 +13,14 @@ let startYear = "sy=" + valueoffield;
 //set parameter for end year (optional)
 let endYear;
 
-let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + query +  "api-key=frybrVidz4oQ4nanro4Ft8CKfvGkIni3"
+let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + query +  "api-key=frybrVidz4oQ4nanro4Ft8CKfvGkIni3";
 
     $.ajax({
-        url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=frybrVidz4oQ4nanro4Ft8CKfvGkIni3"
+        url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=frybrVidz4oQ4nanro4Ft8CKfvGkIni3",
         method: "GET"
     }).then(function(repsonse) {
         console.log(response);
-    })
+    });
 
 
 //set parameter for search term
@@ -37,4 +37,4 @@ let queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + q
 
 
 
-})
+});
