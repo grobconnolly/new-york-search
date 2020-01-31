@@ -1,0 +1,12 @@
+.headerBox {
+height: 200px;
+background-color:#253359;
+}
+
+#titleText {
+    color: white;
+    padding-top: 6%;
+}
+.dataBox {
+    width: 110%;
+}
